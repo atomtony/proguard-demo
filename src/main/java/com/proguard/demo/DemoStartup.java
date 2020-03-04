@@ -24,6 +24,7 @@ public class DemoStartup {
     }
 
     public static void main(String[] args) {
+
         new SpringApplicationBuilder(DemoStartup.class)
                 .beanNameGenerator(new CustomGenerator())
                 .run(args);
